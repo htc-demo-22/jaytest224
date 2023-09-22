@@ -18,6 +18,8 @@ containers:
 resources:
   dns: # We need a DNS record to point to the service 
     type: dns
+  testy:
+    type: mysql
   route:
     type: route
     params:
